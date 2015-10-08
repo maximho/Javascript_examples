@@ -7,3 +7,6 @@ person = {
 	}
 };
 console.log(person.fullName());
+
+//If you access the fullName property, without (), it will return the function definition:
+
