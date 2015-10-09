@@ -1,4 +1,8 @@
-function myFunction(){
-	console.log("hola")
+
+function myFunction() {
+	var car = "Volvo";
 }
-console.log(myFunction())
+
+myFunction();
+console.log("I drive with my " + typeof car);
+
