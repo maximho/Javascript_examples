@@ -10,3 +10,5 @@ var s = v.search("the");
 console.log(s);
 var c = v.slice(7,10);
 console.log(c);
+var u = v.substr(7,3);
+console.log(u);
