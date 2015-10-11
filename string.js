@@ -1,5 +1,4 @@
 var v = "We are the so called \"Vikings\" from the North.";
-
 console.log(v);
 
 var i = v.indexOf("the");
@@ -12,3 +11,6 @@ var c = v.slice(7,10);
 console.log(c);
 var u = v.substr(7,3);
 console.log(u);
+var r = v.replace("North","South");
+console.log(r);
+
