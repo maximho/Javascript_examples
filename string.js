@@ -15,3 +15,11 @@ var h = v.charAt(7); console.log(h);
 var a = v.charCodeAt(8); console.log(a); 
 var y = v.split(" "); console.log(y); 
 
+var str = "Hello";
+var arr = str.split("");
+var text = "";
+var i;
+for (i = 0; i < arr.length; i++) {
+  text += arr[i] 
+}
+console.log(text)
