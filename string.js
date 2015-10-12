@@ -13,4 +13,5 @@ var v2 = "of the World"
 var n = v.concat(" ",v2); console.log(n); 
 var h = v.charAt(7); console.log(h); 
 var a = v.charCodeAt(8); console.log(a); 
+var y = v.split(" "); console.log(y); 
 
