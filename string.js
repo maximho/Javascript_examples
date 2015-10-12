@@ -13,4 +13,6 @@ var u = v.substr(7,3);
 console.log(u);
 var r = v.replace("North","South");
 console.log(r);
+var p = v.toUpperCase();
+console.log(p);
 
