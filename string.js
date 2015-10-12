@@ -11,4 +11,6 @@ var p = v.toUpperCase(); console.log(p);
 var o = v.toLowerCase(); console.log(o); 
 var v2 = "of the World"
 var n = v.concat(" ",v2); console.log(n); 
+var h = v.charAt(7); console.log(h); 
+var a = v.charCodeAt(8); console.log(a); 
 
