@@ -1,6 +1,5 @@
 var v = "We are the so called \"Vikings\" from the North";
 console.log(v);
-console.log([0]);
 
 var i = v.indexOf("the"); console.log(i);
 var l = v.lastIndexOf("the"); console.log(l);
