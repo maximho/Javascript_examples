@@ -7,3 +7,4 @@ var d = new Date("October 14, 2015 20:44:00"); console.log(d);
 var a = new Date(86400000); console.log(a); // zero time plus the number
 var t = new Date(99,5,24,11,33,30,0); console.log(t);
 var e = new Date(99,5,24); console.log(e);
+var s = new Date; console.log(s.toString()) // to String 
