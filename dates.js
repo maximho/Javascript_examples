@@ -15,3 +15,4 @@ console.log(e.toDateString()) // to Date string
 var f = new Date(); console.log(f.getTime()) // milliseconds
 console.log(f.getFullYear()) // year 
 console.log(f.getDay()) // weekday as a number (0-6) 
+var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]; console.log(days[f.getDay()]); 
