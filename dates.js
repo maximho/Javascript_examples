@@ -3,11 +3,13 @@ console.log(new Date()) // Creating Date Objects
 // console.log(new Date(milliseconds)) // Creating Date Objects
 // console.log(new Date(dateString)) // Creating Date Objects
 // console.log(new Date(year, month, day, hours, minutes, seconds, milliseconds)) // Creating Date Objects
-var d = new Date("October 14, 2015 20:44:00"); console.log(d);
-var a = new Date(86400000); console.log(a); // zero time plus the number
-var t = new Date(99,5,24,11,33,30,0); console.log(t);
-var e = new Date(99,5,24); console.log(e);
-var s = new Date; console.log(s.toString()) // to String 
-console.log(s.toUTCString()) // to UTC string 
-console.log(s.toDateString()) // to Date string 
+var a = new Date("October 14, 2015 20:44:00"); console.log(a);
+var b = new Date(86400000); console.log(b); // zero time plus the number
+var c = new Date(99,5,24,11,33,30,0); console.log(c);
+var d = new Date(99,5,24); console.log(d);
+var e = new Date; console.log(e.toString()) // to String 
+console.log(e.toUTCString()) // to UTC string 
+console.log(e.toDateString()) // to Date string 
 
+  // Date Methods //
+var f = new Date(); console.log(f.getTime()) // milliseconds
