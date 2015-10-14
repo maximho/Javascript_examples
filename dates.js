@@ -13,3 +13,4 @@ console.log(e.toDateString()) // to Date string
 
   // Date Methods //
 var f = new Date(); console.log(f.getTime()) // milliseconds
+console.log(f.getFullYear()) //  
