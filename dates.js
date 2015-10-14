@@ -13,4 +13,5 @@ console.log(e.toDateString()) // to Date string
 
   // Date Methods //
 var f = new Date(); console.log(f.getTime()) // milliseconds
-console.log(f.getFullYear()) //  
+console.log(f.getFullYear()) // year 
+console.log(f.getDay()) // weekday as a number (0-6) 
