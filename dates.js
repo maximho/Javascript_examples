@@ -9,4 +9,5 @@ var t = new Date(99,5,24,11,33,30,0); console.log(t);
 var e = new Date(99,5,24); console.log(e);
 var s = new Date; console.log(s.toString()) // to String 
 console.log(s.toUTCString()) // to UTC string 
+console.log(s.toDateString()) // to Date string 
 
