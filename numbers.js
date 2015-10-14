@@ -11,5 +11,5 @@ console.log(parseInt("10")); console.log(parseInt("10.33"));
 console.log(parseInt("10 years")); console.log(parseInt("years 10"));
 console.log(parseFloat("10")); console.log(parseFloat("10.33"));
 console.log(parseFloat("10 years")); console.log(parseFloat("years 10"));
-console.log(z.valueOf()); console.log((123)valueOf()); console.log((100+23)valueOf());
+console.log(z.valueOf()); console.log((123).valueOf()); console.log((100+23).valueOf());
 
