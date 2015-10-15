@@ -19,4 +19,5 @@ var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturda
 console.log(f.setFullYear(2020, 0, 14)); // 
 console.log(f.setDate(20)); // 
 console.log(f.setDate(f.getDate() + 50)); // add dates to a date 
-var msec = Date.parse("March 21, 2012"); console.log(msec) // 
+var msec = Date.parse("March 21, 2012"); console.log(msec) // to milliseconds 
+var date = new Date(msec); console.log(date) // to date 
