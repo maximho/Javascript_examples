@@ -18,3 +18,4 @@ console.log(f.getDay()); // weekday as a number (0-6)
 var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]; console.log(days[f.getDay()]); 
 console.log(f.setFullYear(2020, 0, 14)); // 
 console.log(f.setDate(20)); // 
+console.log(f.setDate(f.getDate() + 50)); // 
