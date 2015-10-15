@@ -7,12 +7,13 @@ var a = new Date("October 14, 2015 20:44:00"); console.log(a);
 var b = new Date(86400000); console.log(b); // zero time plus the number
 var c = new Date(99,5,24,11,33,30,0); console.log(c);
 var d = new Date(99,5,24); console.log(d);
-var e = new Date; console.log(e.toString()) // to String 
-console.log(e.toUTCString()) // to UTC string 
-console.log(e.toDateString()) // to Date string 
+var e = new Date; console.log(e.toString()); // to String 
+console.log(e.toUTCString()); // to UTC string 
+console.log(e.toDateString()); // to Date string 
 
   // Date Methods //
-var f = new Date(); console.log(f.getTime()) // milliseconds
-console.log(f.getFullYear()) // year 
-console.log(f.getDay()) // weekday as a number (0-6) 
+var f = new Date(); console.log(f.getTime()); // milliseconds
+console.log(f.getFullYear()); // year 
+console.log(f.getDay()); // weekday as a number (0-6) 
 var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]; console.log(days[f.getDay()]); 
+console.log(f.setFullYear(2020, 0, 14)); // 
