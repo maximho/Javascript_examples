@@ -21,3 +21,13 @@ console.log(f.setDate(20)); //
 console.log(f.setDate(f.getDate() + 50)); // add dates to a date 
 var msec = Date.parse("March 21, 2012"); console.log(msec) // to milliseconds 
 var date = new Date(msec); console.log(date) // to date 
+// Comparing Dates //
+var today = new Date();
+var someday = new Date();
+someday.setFullYear(2100, 0, 14);
+if (someday > today) {
+  text = "Today is before January 14, 2100.";
+} else {
+  text = "Today is after January 14, 2100.";
+}
+console.log(text);
