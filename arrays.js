@@ -6,9 +6,6 @@ console.log(autos);
 autos[0] = "Renault";
 console.log(autos);
 var person = {firstName:"John", age:34, eyesColour:"brown"}; console.log(person);
-
-
-
 console.log(cars.length);
 console.log(cars.sort());
 
@@ -16,3 +13,6 @@ console.log(cars.sort());
 
 
 
+
+
+cars.push("Ford"); console.log(cars);
