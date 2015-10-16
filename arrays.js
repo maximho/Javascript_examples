@@ -25,23 +25,16 @@ console.log(text);
 console.log(cars.constructor);
 console.log(person.constructor);
 
-
-
-
-
-
-
-
-
-var carstr= cars.toString(); console.log(carstr);
+console.log(cars.toString());
 console.log(cars.valueOf());
-
-
-
-
-
-
-
-
-
 console.log(cars.join(" * "));
+
+
+
+
+
+
+
+
+
+cars.pop(); console.log(cars);
