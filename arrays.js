@@ -34,5 +34,14 @@ console.log(person.constructor);
 
 
 var carstr= cars.toString(); console.log(carstr);
-var carstr2= cars.valueOf(); console.log(carstr2);
 console.log(cars.valueOf());
+
+
+
+
+
+
+
+
+
+console.log(cars.join(" * "));
